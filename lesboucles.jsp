@@ -13,7 +13,7 @@
 
 <%-- Récupération de la valeur saisie par l'utilisateur --%>
 <% String valeur = request.getParameter("valeur"); %>
-    
+<% String newLine = System.getProperty("line.separator");%>    
 <%-- Vérification de l'existence de la valeur --%>
 <% if (valeur != null && !valeur.isEmpty()) { %>
 
@@ -22,7 +22,7 @@
     <p>
     <% for (int i = 0; i<= cpt; i++) { %>
         <% for (int l = 0; l<=cpt; l++) {%>
-       <%= "*" \n\r %>
+       <%= "*" newLine %>
        <% } %>
     <% } %>
     </p>
