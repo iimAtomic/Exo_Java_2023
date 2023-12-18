@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run: |
-          jar cvf NomPrenom.war *
+          jar cvf HamzaAlhoud.war *
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
@@ -15,5 +15,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.EC2_SSH_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
-        source: "NomPrenom.war"
+        source: "HamzaAlhoud.war"
         target: "/opt/tomcat/webapps"
