@@ -48,7 +48,7 @@ out.println("<br>");
 
 <%
 
-if(V3%2=0){
+if(V3%2==0){
     out.println("<br>");
     out.println("<Le nombre est paire");
 }else{
