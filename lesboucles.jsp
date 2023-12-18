@@ -62,10 +62,7 @@
 <p> le code afin de produire un triangle rectangle aligné sur la droite</p>
 <%
     for (int i = 1; i <= cpt; i++) {
-        for (int j = 1; j <= cpt - i; j++) {
-            out.print("&nbsp;");
-        }
-        for (int k = 1; k <= i; k++) {
+        for (int j = 1; j <= 2 * cpt; j++) {  // Modification ici
             out.print("*");
         }
         out.println("<br>");
