@@ -26,6 +26,10 @@
 
 <p>Le carré  de la premiere valeur est :</p>
 <% 
+
+    int valeur = Integer.parseInt(tableauDeChiffres[0]);
+    int carre = (int) Math.pow(valeur, 2);
+    System.out.println("Le carré de la premiere valeur est : " + carre);
     
 %>
 </br>
