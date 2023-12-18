@@ -44,6 +44,30 @@ out.println("<br>");
 <h2>Exercice 2 : Pair ou Impair ?</h2>
 <p>Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant une structure if</p>
 
+
+<form action="#" method="post">
+    <p>Saisir la valeur A : <input type="text" id="inputValeur" name="nombre1">
+    <p><input type="submit" value="Afficher">
+</form>
+
+<% String Nombre = request.getParameter("nombre1"); %>
+ <% if (Nombre != null) { %>
+        <%-- Conversion des valeurs en entiers pour la comparaison --%>
+        <% int nbr = Integer.parseInt(Nombre); %>
+
+<%
+
+if(nbr % 2 =0){
+out.println("<br>");
+out.println("<Le nombre est paire");
+}else{
+out.println("<br>");
+out.println("le nombre est impaire");
+}
+
+
+%>
+
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
