@@ -48,12 +48,12 @@ out.println("<br>");
 
 <%
 
-if(V3%2==0){
-out.println("<br>");
-out.println("<Le nombre est paire");
+if(V3%2=0){
+    out.println("<br>");
+    out.println("<Le nombre est paire");
 }else{
-out.println("<br>");
-out.println("le nombre est impaire");
+    out.println("<br>");
+    out.println("le nombre est impaire");
 }
 
 
