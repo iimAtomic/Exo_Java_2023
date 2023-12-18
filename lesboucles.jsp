@@ -111,7 +111,7 @@
 <p> le code afin de créer une table de multiplication</p>
 <%
     for (int i = 1; i <= 5; i++) {
-        int resultat = 5 * i;
+        int resultat =  cpt * i;
         out.println("5 x " + i + " = " + resultat + "<br>");
     }
 %>
