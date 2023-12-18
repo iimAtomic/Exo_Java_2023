@@ -24,6 +24,14 @@
 <h2>Exercice 1 : La carré de la première valeur</h2>
 <p>Ecrire un programme afin d'afficher le carré de la première valeur</p>
 
+<p>Le carré  de la premiere valeur est :</p>
+<% 
+    int valeur1 =  Integer.parseInt(tableauDeChiffres[0]);
+    int carre = valeur1*Valeur1;
+    out.printf(carre);
+%>
+</br>
+
 <h2>Exercice 2 : La somme des 2 premières valeurs</h2>
 <p>Ecrire un programme afin d'afficher la somme des deux premières valeurs</p>
 
