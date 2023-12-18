@@ -30,8 +30,12 @@ A, B et C et dites nous si la valeur de C est comprise entre A et B.</br>
 
 <%    
     if( V3>V1 && V3<V2){
+out.println("<br>");
+out.println("<br>");
     out.print("Le nombre C est compris entre A et B");
 }else{
+out.println("<br>");
+out.println("<br>");
     out.print("Le nombre C n'est pas compris entre A et B gnegnegne");
 }
 
