@@ -112,7 +112,7 @@
 <%
     for (int i = 1; i <= 5; i++) {
         int resultat =  cpt * i;
-        out.println (cpt "x " + i + " = " + resultat + "<br>");
+        out.println (cpt+"x" + i + " = " + resultat + "<br>");
     }
 %>
 
