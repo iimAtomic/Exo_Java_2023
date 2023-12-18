@@ -26,9 +26,7 @@
 
 <p>Le carré  de la premiere valeur est :</p>
 <% 
-    int valeur1 =  Integer.parseInt(tableauDeChiffres[0]);
-    int carre = valeur1*Valeur1;
-    out.print(carre);
+    
 %>
 </br>
 
